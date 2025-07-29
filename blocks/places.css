@@ -35,6 +35,9 @@
 }
 
 .places__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 48px;
     background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     width: 289px;

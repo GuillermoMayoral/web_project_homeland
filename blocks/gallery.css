@@ -1,0 +1,12 @@
+.gallery {
+    display: flex;
+    padding-top: 118px;
+    justify-content: center;
+}
+
+.gallery__grid {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}

@@ -33,6 +33,9 @@
     margin-top: 107px;
     font-size: 18px;
     line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .places__artist-title {
@@ -40,7 +43,6 @@
     font-size: 12px;
     line-height: 1;
     letter-spacing: 0.12em;
-    display: inline-block;
     padding-bottom: 8px;
 }
 

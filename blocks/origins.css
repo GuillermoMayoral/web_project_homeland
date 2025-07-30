@@ -52,10 +52,6 @@
     .origins__quote-text {
         padding-bottom: 0;
     }
-
-    .origins__description {
-        padding-bottom: 88px;
-    }
 }
 
 @media screen and (max-width: 544px) {
@@ -75,7 +71,4 @@
         padding-bottom: 10px;
     }
 
-    .origins__description {
-        padding-bottom: 64px;
-    }
 }

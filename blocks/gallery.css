@@ -10,3 +10,26 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
 }
+
+@media screen and (max-width: 1024px) {
+    .gallery {
+        padding-top: 64px;
+    }
+
+    .gallery__grid {
+        max-width: 720px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .gallery {
+        padding-top: 38px;
+    }
+
+    .gallery__grid {
+        max-width: 288px;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}

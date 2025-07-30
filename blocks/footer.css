@@ -8,3 +8,9 @@
 .footer__text {
     margin-top: 90px;
 }
+
+@media screen and (max-width: 544px) {
+    .footer__text {
+        margin-top: 65px;
+    }
+}
